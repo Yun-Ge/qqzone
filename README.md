@@ -11,5 +11,5 @@
   2：需要在C盘下放置一个谷歌浏览器驱动chromedriver.exe
   3: 更改下图中的xx 将它们改成你自己的QQ账号和密码，如果不改的话请求需要携带qqacount=[qq账号]&password=[qq密码]
   
-![image](https://github.com/Yun-Ge/qqzone/blob/master/O20(C37%25Z6%5DTP%5D32REMT%246F.png)
+![image](https://github.com/Yun-Ge/qqzone/blob/master/O20\(C37%25Z6%5DTP%5D32REMT%246F.png)
  

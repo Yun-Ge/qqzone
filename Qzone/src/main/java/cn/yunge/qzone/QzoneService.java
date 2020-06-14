@@ -54,8 +54,8 @@ public class QzoneService {
 		WebElement tcOperationBkg = validate.findElement(By.xpath("//*[@id=\"tcOperation\"]"));// 获取整个验证图层
 
 		String yinyingUrl = slideBkg.getAttribute("src"); // <i 获取阴影小图
-		String newUrl = yinyingUrl.replace("hycdn_2_", "hycdn_1_"); //<i 获取新大图
-		String oldUrl = yinyingUrl.replace("hycdn_2_", "hycdn_0_"); //<i 获取原始大图
+		String newUrl = yinyingUrl.replace("img_index=2", "img_index=1"); //<i 获取新大图
+		String oldUrl = yinyingUrl.replace("img_index=2", "img_index=0"); //<i 获取原始大图
 
 		BufferedImage oldBmp = GetImg(oldUrl); //<i 获取新大图Image对象
 		BufferedImage newBmp = GetImg(newUrl); //<i 获取原始大图Image对象
